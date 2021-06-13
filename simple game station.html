@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+:-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color: #F5F5F5;
+}
+::-webkit-scrollbar
+{
+width: 10px;
+background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+background-color: #F90;  background-image: -webkit-linear-gradient(45deg,
+rgba(255, 255, 255, .2) 25%,
+transparent 25%,
+transparent 50%,
+rgba(255, 255, 255, .2) 50%,
+rgba(255, 255, 255, .2) 75%,
+transparent 75%,
+transparent)
+}
+h1{
+color: black;
+font-family: Impact;
+font-size: 50px;
+text-shadow: 3px 3px yellow;
+transition: 0.2s;
+}
+h1:hover
+{
+     text-shadow: 2px 2px black;
+     color: yellow;
+     transform: scale(1.1);
+     transition: 0.2s;
+     
+}
+p{
+color: black;
+font-family: Impact;
+font-size: 20px;
+text-shadow: 2px 2px yellow;
+transition: 0.2s;
+}
+body {
+background-color: #FFC300;
+text-align: center;
+}
+.card {
+  width: 40%;
+  background-color: #FFE400;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 3px solid #000000;
+}
+
+.container {
+  padding: 2px 16px;
+  align-items: center;
+  justify-content: center;
+}
+body {
+            text-align: center;
+        }
+button { 
+  border-radius: 100px;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  color: black;
+  padding: 2px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Impact,Arial;
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 
+  rgba(0,0,0,0.19);
+  transition: 1s;
+}
+
+button:hover
+{
+     cursor: pointer;
+     background-color: black;
+     color: #ffc61a;
+     transform: scale(1.1);
+     transition: 0.2s;
+     
+}
+</style>
+
+</head>
+<body>
+<h1 align="center">GAME STATION</h1>
+<div class="card">
+  <div class="container">
+<br>
+<button onclick="myFunction()">STEAM</button>
+<button onclick="myFunction1()">EPIC</button>
+<button onclick="myFunction2()">AMAZON</button>
+<button onclick="myFunction3()">BATTLE.NET</button>
+<button onclick="myFunction4()">UPLAY</button>
+<button onclick="myFunction5()">ITCH</button>
+<button onclick="myFunction6()">ORIGIN</button><br><br>
+<button onclick="myFunction01()">ADD TO STEAM</button>
+<button onclick="myFunction02()">DOWNLOADS</button>
+<button onclick="myFunction05()">PC BUILDS</button><br><br>
+<iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=GameTrailers" allowfullscreen="allowfullscreen" width="560" height="315" ></iframe>
+<iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=GameSpotTrailers" allowfullscreen="allowfullscreen" width="560" height="315" ></iframe>
+<script>
+function myFunction() {
+  setTimeout(function(){ self.close(); }, 3900);
+  window.open("steam://nav/games",'_self');
+}
+
+function myFunction1() {
+  setTimeout(function(){ self.close(); }, 3900);
+  window.open("com.epicgames.launcher://apps/",'_self');
+}
+
+function myFunction2() {
+  setTimeout(function(){ self.close(); }, 3900);
+  window.open("amazon-games://",'_self');
+}
+
+function myFunction3() {
+  setTimeout(function(){ self.close(); }, 3900);
+  window.open("battlenet://",'_self');
+}
+
+function myFunction4() {
+  setTimeout(function(){ self.close(); }, 3900);
+  window.open("uplay://",'_self');
+}
+
+function myFunction5() {
+  setTimeout(function(){ self.close(); }, 3900);
+  window.open("itch://library/",'_self');
+}
+
+function myFunction6() {
+  setTimeout(function(){ self.close(); }, 3900);
+  window.open("origin://",'_self');
+}
+function myFunction02() {
+  setTimeout(function(){ self.close(); }, 5000);
+  window.open("https://simple-games-station.blogspot.com/2020/09/need-something.html",'_self');
+}
+
+function myFunction01() {
+  window.open("steam://AddNonSteamGame/",'_self');
+}
+function myFunction05() {
+  window.open("https://pcpartpicker.com/builds/",'_self');
+}
+</script>
+  </div>
+</div>
+<br>
+<p>It's just a place with the game you love</p>
+</body>
+</html> 
